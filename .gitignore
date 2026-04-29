@@ -1,0 +1,30 @@
+# MATLAB
+*.mexw64
+*.mexw32
+*.asv
+*.mlappdelete
+*.mlx
+*.mltbx
+*.p
+
+# 仿真/构建产物
+*.log
+*.out
+
+# IDE
+*.prj
+*.slx
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# ROS2 build (后续移植时)
+build/
+install/
+log/
+
+# Python (后续移植时)
+__pycache__/
+*.pyc
+*.egg-info/

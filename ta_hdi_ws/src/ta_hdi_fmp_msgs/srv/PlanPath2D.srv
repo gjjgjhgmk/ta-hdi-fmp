@@ -1,0 +1,10 @@
+geometry_msgs/Pose2D start
+geometry_msgs/Pose2D goal
+ta_hdi_fmp_msgs/Obstacle2D[] obstacles
+---
+bool success
+nav_msgs/Path path
+float32 min_dist
+float32 kappa_p99
+float32 jerk_rms
+string status
